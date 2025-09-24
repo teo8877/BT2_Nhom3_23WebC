@@ -3,39 +3,36 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-
-    
-
     <title>@ViewData["Title"] - Floral Shop</title>
 
-    <!-- Link tất cả các file CSS trong wwwroot/css -->
-    <link rel="stylesheet" href="~/css/templatemo_style.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="stylesheet" href="~/css/orman.css" />
-    <link rel="stylesheet" href="~/css/nivo-slider.css" />
-    <link rel="stylesheet" href="~/css/ddsmoothmenu.css" />
-    <link rel="stylesheet" href="~/css/slimbox2.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/css/templatemo_style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/ddsmoothmenu.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/slimbox2.css" asp-append-version="true" />
 
-    <!-- Link các file CSS trong wwwroot/nivo-slider/themes (nếu dùng theme riêng) -->
-    <!-- Ví dụ theme orman: -->
-    <link rel="stylesheet" href="~/nivo-slider/themes/orman/orman.css" />
 
-  
-    <link rel="stylesheet" href="~nivo-slider\themes\pascal\pascal.css" />
+ 
+    <!-- Nivo Slider CSS -->
+ 
+
+    <link rel="stylesheet" href="~/nivo-slider/nivo-slider.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/nivo-slider/themes/default/default.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/nivo-slider/themes/orman/orman.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/nivo-slider/themes/pascal/pascal.css" asp-append-version="true" />
+
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <!-- JS -->
+    <script src="~/js/jquery.min.js" asp-append-version="true"></script>
+    <script src="~/nivo-slider/jquery.nivo.slider.js" asp-append-version="true"></script>
+    <script src="~/js/ddsmoothmenu.js" asp-append-version="true"></script>
+    <script src="~/js/slimbox2.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
     
-    <link rel="stylesheet" href="~nivo-slider\nivo-slider.css" />
-    <!-- Các theme khác: default, pascal nếu dùng thì bổ sung tương tự -->
-    <!-- Link tất cả các file JS trong wwwroot/js -->
-    <script src="~/js/jquery.min.js"></script>
-    <script src="~/js/jquery-1.6.1.min.js"></script>
-    <script src="~/js/jquery.nivo.slider.js"></script>
-    <script src="~/js/ddsmoothmenu.js"></script>
-    <script src="~/js/slimbox2.js"></script>
-    <script src="~/js/site.js"></script>
-    
-    <!-- Link thêm JS riêng của Nivo Slider nếu dùng bản trong thư mục riêng -->
-    <script src="~/nivo-slider/jquery.nivo.slider.js"></script>
+
 </head>
+
 <body>
     <div id="templatemo_wrapper_h">
         @Html.Partial("_Header")

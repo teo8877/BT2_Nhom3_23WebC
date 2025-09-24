@@ -14,11 +14,16 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseStaticFiles();// For the wwwroot folder
+
 app.UseRouting();
 
 app.UseAuthorization();
 
 app.MapStaticAssets();
+
+
 
 app.MapControllerRoute(
     name: "default",

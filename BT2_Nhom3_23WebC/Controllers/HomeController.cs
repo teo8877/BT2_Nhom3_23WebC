@@ -17,7 +17,29 @@ namespace BT2_Nhom3_23WebC.Controllers
         {
             return View();
         }
-
+        public IActionResult About()
+        {
+            return View();
+        }
+        public IActionResult Checkout()
+        {
+            return View();
+        }public IActionResult Products()
+        {
+            return View();
+        }public IActionResult Contact()
+        {
+            return View();
+        }public IActionResult FAQs()
+        {
+            return View();
+        }public IActionResult ProductDetail()
+        {
+            return View();
+        }public IActionResult ShoppingCart()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
