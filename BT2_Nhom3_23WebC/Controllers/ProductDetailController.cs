@@ -7,7 +7,7 @@ namespace BT2_Nhom3_23WebC.Controllers
         public IActionResult Index(int id)
         {
             // Giả sử lấy dữ liệu từ DB hoặc hardcode
-            var product = new Models.ProductDetail
+            var product = new Models.ProductDetailModel
             {
                 Name = "Yellow Flowers",
                 ImageUrl = "/images/product/image_01.jpg",

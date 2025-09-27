@@ -1,6 +1,6 @@
 ﻿namespace BT2_Nhom3_23WebC.Models
 {
-    public class ProductDetail
+    public class ProductDetailModel
     {
         public string Name { get; set; }
         public string ImageUrl { get; set; }

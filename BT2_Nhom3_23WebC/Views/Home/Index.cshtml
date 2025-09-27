@@ -1,4 +1,4 @@
-﻿@model List<BT2_Nhom3_23WebC.Models.Product>
+﻿@model List<BT2_Nhom3_23WebC.Models.ProductModel>
 @{
     ViewData["Title"] = "Home";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -11,20 +11,20 @@
     @foreach (var p in Model)
     {
         <div class="product_box @(p.NoMarginRight ? "no_margin_right" : "")">
-            <a href="productdetail.html">
+            <a href="@Url.Action("Index", "ProductDetail")">
                 <img src="@p.ImageUrl" alt="@p.Alt" />
             </a>
             <h3>@p.Name</h3>
             <p class="product_price">$@p.Price</p>
             <p class="add_to_cart">
-                <a href="productdetail.html">Detail</a>
-                <a href="shoppingcart.html">Add to Cart</a>
+                <a href="@Url.Action("Index", "ProductDetail")">Detail</a>
+                <a href="@Url.Action("Index", "ShoppingCart")">Add to Cart</a>
             </p>
-        </div>
+        </div> 
     }
 
     <div class="blank_box">
-        <a href="#"><img src="images/free_shipping.jpg" alt="Free Shipping" /></a>
+        <a href="#"><img src="/images/free_shipping.jpg" alt="Free Shipping" /></a>
     </div>
 </div>
 <div class="cleaner"></div>

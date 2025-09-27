@@ -15,16 +15,16 @@ namespace BT2_Nhom3_23WebC.Controllers
 
         public IActionResult Index()
         {
-            var products = new List<Product>
+            var products = new List<ProductModel>
         {
-            new Product { Name = "Ut eu feugiat", ImageUrl = "images/product/01.jpg", Alt = "floral set 1", Price = 240 },
-            new Product { Name = "Donec Est Nisi", ImageUrl = "images/product/02.jpg", Alt = "flowers 2", Price = 160 },
-            new Product { Name = "Tristique Vitae", ImageUrl = "images/product/03.jpg", Alt = "floral 3", Price = 140 },
-            new Product { Name = "Hendrerit Eu", ImageUrl = "images/product/04.jpg", Alt = "flowers 4", Price = 320, NoMarginRight = true },
-            new Product { Name = "Tincidunt Nisi", ImageUrl = "images/product/05.jpg", Alt = "floral set 5", Price = 150 },
-            new Product { Name = "Curabitur et turpis", ImageUrl = "images/product/07.jpg", Alt = "flowers 7", Price = 110 },
-            new Product { Name = "Mauris consectetur", ImageUrl = "images/product/06.jpg", Alt = "flower set 6", Price = 130 },
-            new Product { Name = "Proin volutpat", ImageUrl = "images/product/08.jpg", Alt = "floral 8", Price = 170, NoMarginRight = true }
+            new ProductModel { Name = "Ut eu feugiat", ImageUrl = "images/product/01.jpg", Alt = "floral set 1", Price = 240 },
+            new ProductModel { Name = "Donec Est Nisi", ImageUrl = "images/product/02.jpg", Alt = "flowers 2", Price = 160 },
+            new ProductModel { Name = "Tristique Vitae", ImageUrl = "images/product/03.jpg", Alt = "floral 3", Price = 140 },
+            new ProductModel { Name = "Hendrerit Eu", ImageUrl = "images/product/04.jpg", Alt = "flowers 4", Price = 320, NoMarginRight = true },
+            new ProductModel { Name = "Tincidunt Nisi", ImageUrl = "images/product/05.jpg", Alt = "floral set 5", Price = 150 },
+            new ProductModel { Name = "Curabitur et turpis", ImageUrl = "images/product/07.jpg", Alt = "flowers 7", Price = 110 },
+            new ProductModel { Name = "Mauris consectetur", ImageUrl = "images/product/06.jpg", Alt = "flower set 6", Price = 130 },
+            new ProductModel { Name = "Proin volutpat", ImageUrl = "images/product/08.jpg", Alt = "floral 8", Price = 170, NoMarginRight = true }
         };
             return View(products);
         }

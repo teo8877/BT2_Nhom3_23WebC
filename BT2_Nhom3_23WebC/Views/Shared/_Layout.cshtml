@@ -1,4 +1,4 @@
-﻿ 
+﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,46 +6,66 @@
     <title>@ViewData["Title"] - Floral Shop</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="~/css/templatemo_style.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/ddsmoothmenu.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/slimbox2.css" asp-append-version="true" />
+    <link href="~/css/templatemo_style.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/orman.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="~/css/nivo-slider.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="~/css/ddsmoothmenu.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/slimbox2.css" rel="stylesheet" type="text/css" media="screen" />
 
-
- 
-    <!-- Nivo Slider CSS -->
- 
-
-    <link rel="stylesheet" href="~/nivo-slider/nivo-slider.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/nivo-slider/themes/orman/orman.css" asp-append-version="true" />
-    
-     
-
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <!-- JS -->
-    <script src="~/js/jquery.min.js" asp-append-version="true"></script>
-    <script src="~/nivo-slider/jquery.nivo.slider.js" asp-append-version="true"></script>
-    <script src="~/js/ddsmoothmenu.js" asp-append-version="true"></script>
-    <script src="~/js/slimbox2.js" asp-append-version="true"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/jquery.nivo.slider.pack.js"></script>
+    <script src="~/js/ddsmoothmenu.js"></script>
+    <script src="~/js/slimbox2.js"></script>
 
-    
+    <script type="text/javascript">
+        $(document).ready(function () {
+                    // CHỈ KHỞI TẠO SLIDER NẾU TRANG LÀ HOME
+                    var isHomePage = window.location.pathname === '/' || window.location.pathname === '/Home';
 
+                    if (isHomePage && $('#slider').length) {
+                        $('#slider').nivoSlider({
+                            controlNav: false,
+                            effect: 'fade',
+                            animSpeed: 500,
+                            pauseTime: 3000
+                        });
+                    }
+
+                    // KHỞI TẠO MENU
+                    ddsmoothmenu.init({
+                        mainmenuid: "templatemo_menu",
+                        orientation: 'h',
+                        classname: 'ddsmoothmenu',
+                        contentsource: "markup"
+                    });
+                });
+
+                function clearText(field) {
+                    if (field.defaultValue == field.value) field.value = '';
+                    else if (field.value == '') field.value = field.defaultValue;
+                }</script>
 </head>
 
-<body>
-    <div id="templatemo_wrapper_h">
+@{
+        var isHomePage = ViewContext.RouteData.Values["action"]?.ToString() == "Index"
+                                        && ViewContext.RouteData.Values["controller"]?.ToString() == "Home";
+}
+
+<body class="@(isHomePage ? "" : "no-slider subpage")">
+    <div id="templatemo_wrapper_sp">
         @Html.Partial("_Header")
+
         <div id="templatemo_main_wrapper">
             <div id="templatemo_main">
-                <div class="main-layout">
-                    @Html.Partial("_Sidebar")
-                    <main id="content" class="right">
-                        @RenderBody()
-                    </main>
+                @Html.Partial("_Sidebar")
+                <div id="content" class="right">
+                    @RenderBody()
                 </div>
                 <div class="cleaner"></div>
             </div>
         </div>
+
         @Html.Partial("_Footer")
     </div>
 </body>

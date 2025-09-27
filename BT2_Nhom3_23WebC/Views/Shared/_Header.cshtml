@@ -6,7 +6,7 @@
                 <ul>
                      
                     <li><a href="@Url.Action("Index", "Home")">Home</a></li>
-                    <li><a href="@Url.Action("About", "Home")">About</a></li>
+                    <li><a href="@Url.Action("Index", "About")">About</a></li>
                     <li>
                         <a href="@Url.Action("Index", "Product")">Products</a>
                         <ul>
@@ -17,9 +17,9 @@
                             <li><a href="#subpage5">Sub Page Five</a></li>
                         </ul>
                     </li>
-                    <li><a href="@Url.Action("Checkout", "Home")">Checkout</a></li>
-                    <li><a href="@Url.Action("Contact", "Home")">Contact</a></li>
-                    <li><a href="@Url.Action("FAQs", "Home")">FAQs</a></li>
+                    <li><a href="@Url.Action("Index", "Checkout")">Checkout</a></li>
+                    <li><a href="@Url.Action("Index", "Contact")">Contact</a></li>
+                    <li><a href="@Url.Action("Index", "FAQs")">FAQs</a></li>
                 </ul>
                 <div id="templatemo_search">
                     <form action="#" method="get">
@@ -58,19 +58,7 @@
             </script>
 
             <!-- Ẩn text của site search -->
-            <script type="text/javascript">
-                             function clearText(field) {
-                    if (field.value === 'Site Search') {
-                        field.value = '';
-                    }
-                    // Nếu muốn khi blur thì trả lại giá trị mặc định:
-                    if (field.value === '' && field.type === 'text' && event.type === 'blur') {
-                        field.value = 'Site Search';
-                    }
-                }
-               
-                 
-            </script>
+            
         </div> <!-- END of header -->
     </div> <!-- END of header wrapper -->
 </div>
