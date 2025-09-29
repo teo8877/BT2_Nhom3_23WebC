@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 //DI for AddStaticAssets
 //DI cau 2;
-builder.Services.AddSingleton<ProductService>();
+builder.Services.AddScoped<ProductService>();//co the dung AddSingleton
 
 var app = builder.Build();
 
