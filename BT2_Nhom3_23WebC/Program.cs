@@ -1,7 +1,13 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using BT2_Nhom3_23WebC.Models;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//DI for AddStaticAssets
+//DI cau 2;
+builder.Services.AddSingleton<ProductService>();
 
 var app = builder.Build();
 
