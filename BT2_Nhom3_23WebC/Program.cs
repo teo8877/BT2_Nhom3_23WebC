@@ -1,4 +1,5 @@
 ﻿using BT2_Nhom3_23WebC.Models;
+using BT2_Nhom3_23WebC.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,12 +21,12 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();// For the wwwroot folder
-
 app.UseRouting();
-
 app.UseAuthorization();
+
+// Đọc danh sách sản phẩm từ db.json qua Middleware
+app.UseMiddleware<ProductDbMiddleware>(Path.Combine(app.Environment.ContentRootPath, "db.json"));
 
 app.MapStaticAssets();
 
