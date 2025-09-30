@@ -18,6 +18,7 @@ namespace BT2_Nhom3_23WebC.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.PageName = "Home";
             var products= _productService.GetAllProducts();
             return View(products);
         }
