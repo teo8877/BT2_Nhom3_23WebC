@@ -6,8 +6,8 @@
       "DonGia": 240,
       "DonGiaKhuyenMai": 220,
       "HinhAnh": "images/product/01.jpg",
-      "MoTa": "Bó hoa Ut eu feugiat phong cách sang trọng, phù hợp làm quà tặng trang trọng.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "B\u00F3 hoa Ut eu feugiat phong c\u00E1ch sang tr\u1ECDng, ph\u00F9 h\u1EE3p l\u00E0m qu\u00E0 t\u1EB7ng trang tr\u1ECDng.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP002",
@@ -15,8 +15,8 @@
       "DonGia": 160,
       "DonGiaKhuyenMai": 150,
       "HinhAnh": "images/product/02.jpg",
-      "MoTa": "Donec Est Nisi — thiết kế nhỏ gọn, thích hợp trang trí bàn làm việc.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Donec Est Nisi \u2014 thi\u1EBFt k\u1EBF nh\u1ECF g\u1ECDn, th\u00EDch h\u1EE3p trang tr\u00ED b\u00E0n l\u00E0m vi\u1EC7c.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP003",
@@ -24,8 +24,8 @@
       "DonGia": 140,
       "DonGiaKhuyenMai": 130,
       "HinhAnh": "images/product/03.jpg",
-      "MoTa": "Tristique Vitae mang tông màu nhã nhặn, phù hợp tặng người thân.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Tristique Vitae mang t\u00F4ng m\u00E0u nh\u00E3 nh\u1EB7n, ph\u00F9 h\u1EE3p t\u1EB7ng ng\u01B0\u1EDDi th\u00E2n.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP004",
@@ -33,8 +33,8 @@
       "DonGia": 320,
       "DonGiaKhuyenMai": 300,
       "HinhAnh": "images/product/04.jpg",
-      "MoTa": "Hendrerit Eu — bó hoa cao cấp cho sự kiện đặc biệt hoặc lễ kỷ niệm.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Hendrerit Eu \u2014 b\u00F3 hoa cao c\u1EA5p cho s\u1EF1 ki\u1EC7n \u0111\u1EB7c bi\u1EC7t ho\u1EB7c l\u1EC5 k\u1EF7 ni\u1EC7m.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP005",
@@ -42,8 +42,8 @@
       "DonGia": 150,
       "DonGiaKhuyenMai": 140,
       "HinhAnh": "images/product/05.jpg",
-      "MoTa": "Tincidunt Nisi trẻ trung, màu sắc tươi sáng, thích hợp sinh nhật.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Tincidunt Nisi tr\u1EBB trung, m\u00E0u s\u1EAFc t\u01B0\u01A1i s\u00E1ng, th\u00EDch h\u1EE3p sinh nh\u1EADt.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP006",
@@ -51,8 +51,8 @@
       "DonGia": 110,
       "DonGiaKhuyenMai": 100,
       "HinhAnh": "images/product/07.jpg",
-      "MoTa": "Curabitur et turpis — nhỏ xinh, tiết kiệm nhưng vẫn thanh lịch.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Curabitur et turpis \u2014 nh\u1ECF xinh, ti\u1EBFt ki\u1EC7m nh\u01B0ng v\u1EABn thanh l\u1ECBch.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP007",
@@ -60,8 +60,8 @@
       "DonGia": 130,
       "DonGiaKhuyenMai": 120,
       "HinhAnh": "images/product/06.jpg",
-      "MoTa": "Mauris consectetur đơn giản, phù hợp làm vật trang trí hoặc quà tặng.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Mauris consectetur \u0111\u01A1n gi\u1EA3n, ph\u00F9 h\u1EE3p l\u00E0m v\u1EADt trang tr\u00ED ho\u1EB7c qu\u00E0 t\u1EB7ng.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP008",
@@ -69,8 +69,8 @@
       "DonGia": 170,
       "DonGiaKhuyenMai": 160,
       "HinhAnh": "images/product/08.jpg",
-      "MoTa": "Proin volutpat là bó hoa độc đáo, phù hợp cho quà sinh nhật.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Proin volutpat l\u00E0 b\u00F3 hoa \u0111\u1ED9c \u0111\u00E1o, ph\u00F9 h\u1EE3p cho qu\u00E0 sinh nh\u1EADt.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP009",
@@ -78,8 +78,8 @@
       "DonGia": 180,
       "DonGiaKhuyenMai": 165,
       "HinhAnh": "images/product/05.jpg",
-      "MoTa": "Lobortis Magna với phong cách hiện đại, thích hợp tặng đối tác kinh doanh.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Lobortis Magna v\u1EDBi phong c\u00E1ch hi\u1EC7n \u0111\u1EA1i, th\u00EDch h\u1EE3p t\u1EB7ng \u0111\u1ED1i t\u00E1c kinh doanh.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP010",
@@ -87,8 +87,8 @@
       "DonGia": 210,
       "DonGiaKhuyenMai": 190,
       "HinhAnh": "images/product/08.jpg",
-      "MoTa": "Vestibulum Vitae mang sắc vàng tươi sáng, đem lại sự may mắn và năng lượng.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Vestibulum Vitae mang s\u1EAFc v\u00E0ng t\u01B0\u01A1i s\u00E1ng, \u0111em l\u1EA1i s\u1EF1 may m\u1EAFn v\u00E0 n\u0103ng l\u01B0\u1EE3ng.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP011",
@@ -96,8 +96,8 @@
       "DonGia": 195,
       "DonGiaKhuyenMai": 180,
       "HinhAnh": "images/product/01.jpg",
-      "MoTa": "Integer Gravida nhẹ nhàng, phù hợp trang trí phòng khách hoặc phòng ngủ.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Integer Gravida nh\u1EB9 nh\u00E0ng, ph\u00F9 h\u1EE3p trang tr\u00ED ph\u00F2ng kh\u00E1ch ho\u1EB7c ph\u00F2ng ng\u1EE7.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP012",
@@ -105,8 +105,8 @@
       "DonGia": 250,
       "DonGiaKhuyenMai": 230,
       "HinhAnh": "images/product/02.jpg",
-      "MoTa": "Aenean Euismod thanh lịch, thích hợp cho các buổi lễ và dịp quan trọng.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Aenean Euismod thanh l\u1ECBch, th\u00EDch h\u1EE3p cho c\u00E1c bu\u1ED5i l\u1EC5 v\u00E0 d\u1ECBp quan tr\u1ECDng.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP013",
@@ -114,8 +114,8 @@
       "DonGia": 175,
       "DonGiaKhuyenMai": 160,
       "HinhAnh": "images/product/03.jpg",
-      "MoTa": "Vivamus Tincidunt đơn giản nhưng tinh tế, dễ phối với nhiều không gian.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Vivamus Tincidunt \u0111\u01A1n gi\u1EA3n nh\u01B0ng tinh t\u1EBF, d\u1EC5 ph\u1ED1i v\u1EDBi nhi\u1EC1u kh\u00F4ng gian.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP014",
@@ -123,8 +123,8 @@
       "DonGia": 205,
       "DonGiaKhuyenMai": 190,
       "HinhAnh": "images/product/04.jpg",
-      "MoTa": "Quisque Porttitor mang sự tươi mới, thích hợp làm quà tặng dịp khai trương.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Quisque Porttitor mang s\u1EF1 t\u01B0\u01A1i m\u1EDBi, th\u00EDch h\u1EE3p l\u00E0m qu\u00E0 t\u1EB7ng d\u1ECBp khai tr\u01B0\u01A1ng.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP015",
@@ -132,8 +132,8 @@
       "DonGia": 220,
       "DonGiaKhuyenMai": 200,
       "HinhAnh": "images/product/05.jpg",
-      "MoTa": "Suspendisse Vitae tạo điểm nhấn cho không gian sống, mang lại sự ấm áp.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Suspendisse Vitae t\u1EA1o \u0111i\u1EC3m nh\u1EA5n cho kh\u00F4ng gian s\u1ED1ng, mang l\u1EA1i s\u1EF1 \u1EA5m \u00E1p.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP016",
@@ -141,8 +141,8 @@
       "DonGia": 260,
       "DonGiaKhuyenMai": 240,
       "HinhAnh": "images/product/06.jpg",
-      "MoTa": "Aliquam Sem kết hợp hoa hồng và hoa lan, mang vẻ đẹp quý phái.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Aliquam Sem k\u1EBFt h\u1EE3p hoa h\u1ED3ng v\u00E0 hoa lan, mang v\u1EBB \u0111\u1EB9p qu\u00FD ph\u00E1i.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP017",
@@ -150,8 +150,8 @@
       "DonGia": 280,
       "DonGiaKhuyenMai": 260,
       "HinhAnh": "images/product/07.jpg",
-      "MoTa": "Praesent Ornare mang sắc đỏ nổi bật, phù hợp quà tặng ngày lễ tình nhân.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Praesent Ornare mang s\u1EAFc \u0111\u1ECF n\u1ED5i b\u1EADt, ph\u00F9 h\u1EE3p qu\u00E0 t\u1EB7ng ng\u00E0y l\u1EC5 t\u00ECnh nh\u00E2n.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP018",
@@ -159,8 +159,8 @@
       "DonGia": 190,
       "DonGiaKhuyenMai": 175,
       "HinhAnh": "images/product/08.jpg",
-      "MoTa": "Curabitur Magna nhẹ nhàng, tạo cảm giác thư giãn cho không gian nội thất.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Curabitur Magna nh\u1EB9 nh\u00E0ng, t\u1EA1o c\u1EA3m gi\u00E1c th\u01B0 gi\u00E3n cho kh\u00F4ng gian n\u1ED9i th\u1EA5t.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP019",
@@ -168,8 +168,8 @@
       "DonGia": 300,
       "DonGiaKhuyenMai": 280,
       "HinhAnh": "images/product/03.jpg",
-      "MoTa": "Morbi Blandit sang trọng, thích hợp dùng trong sự kiện hoặc lễ cưới.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Morbi Blandit sang tr\u1ECDng, th\u00EDch h\u1EE3p d\u00F9ng trong s\u1EF1 ki\u1EC7n ho\u1EB7c l\u1EC5 c\u01B0\u1EDBi.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
     },
     {
       "MaSP": "SP020",
@@ -177,8 +177,44 @@
       "DonGia": 320,
       "DonGiaKhuyenMai": 300,
       "HinhAnh": "images/product/02.jpg",
-      "MoTa": "Phasellus Ullamcorper rực rỡ sắc màu, làm bừng sáng không gian sống.",
-      "LoaiSP": "Hoa tươi"
+      "MoTa": "Phasellus Ullamcorper r\u1EF1c r\u1EE1 s\u1EAFc m\u00E0u, l\u00E0m b\u1EEBng s\u00E1ng kh\u00F4ng gian s\u1ED1ng.",
+      "LoaiSP": "Hoa t\u01B0\u01A1i"
+    },
+    {
+      "MaSP": "",
+      "TenSP": "",
+      "DonGia": 0,
+      "DonGiaKhuyenMai": 0,
+      "HinhAnh": "",
+      "MoTa": "",
+      "LoaiSP": ""
+    },
+    {
+      "MaSP": "",
+      "TenSP": "",
+      "DonGia": 0,
+      "DonGiaKhuyenMai": 0,
+      "HinhAnh": "",
+      "MoTa": "",
+      "LoaiSP": ""
+    },
+    {
+      "MaSP": "123",
+      "TenSP": "cac",
+      "DonGia": 1000,
+      "DonGiaKhuyenMai": 10,
+      "HinhAnh": "images/product/02.jpg",
+      "MoTa": "eoeoeo",
+      "LoaiSP": "really"
+    },
+    {
+      "MaSP": "123344",
+      "TenSP": "concac",
+      "DonGia": 1000000,
+      "DonGiaKhuyenMai": 10000,
+      "HinhAnh": "images/product/05.jpg",
+      "MoTa": "10cm",
+      "LoaiSP": "really"
     }
   ]
 }
